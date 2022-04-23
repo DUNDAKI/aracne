@@ -1,0 +1,151 @@
+:root {
+--vermelho: #e50914;
+--preta: #141414;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+/* elementos bases */
+body {
+width: 100%;
+background: #ca06f1;
+font-family: "Arial ", Times;
+ 
+} 
+
+/*menu principal*/ 
+
+.navbar{
+width: 100%;
+box-shadow:0px 2px 20px #07e93f;
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%);
+background: linear-gradient(blue, pink);
+
+}
+
+.nav-item{
+margin-right: 25px;
+}
+.navbar-light .navbar-brand{
+color: #00ff70;
+}
+
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+.dropdown-menu.show{
+margin-top: 6px;
+border: none;
+}
+
+.sair a{
+text-decoration: none;
+color: #000;
+}
+
+
+/*TELA PRINCIPAL*/
+.tela{
+    margin-top: 100px;
+    height: 715px;
+}
+
+.coluna2 p{
+font-size: 20px;
+}
+
+
+.btn-info{
+border-radius: 20px;
+font-size: 20px;
+}
+
+.tela-principal  .btn-empresa{
+    margin-bottom: 26px;
+}
+
+section .tela-principal .coluna1{
+    padding-top: 31px;
+}
+
+.coluna2{
+    margin-bottom: 20px;
+}
+
+/*O QUE FAZEMOS */
+#oquefazemos{    
+    background: rgb(1, 1, 248);
+    margin: 0;
+}
+
+#oquefazemos h3{
+    padding-top: 20px;
+}
+
+.col-sm-6{
+    text-align: center;
+}
+.col-sm-6 p{
+    font-size: 21px;
+    font-family: "Arial ", Times;
+    text-align: justify;
+}
+
+#como-funciona{
+    margin: 0px;
+}
+section .container .cadastro{
+    margin-bottom: 20px;
+}
+
+
+
+/*PAGINA QUEM SOMOS*/
+
+.fundo{
+border-radius: 10px  10px 0 0;
+margin: 20px;        
+margin-bottom: -10px;
+background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 100%);
+
+}
+.fundo h1{
+color: white;
+text-align: center;
+padding-top:  10px;
+}
+.btn-voltar{
+margin: 20px;
+
+}
+
+.coluna{
+margin: 10px;
+}
+
+.coluna p{
+margin-top: 30px;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 20px;
+border-radius: 10px;
+padding: 10px;
+background-color: #141414;
+font-size: 20px;
+color: #fff;
+}
+
+.coluna1 .coluna2 h2{
+color: white;
+}
+
+
+/*RODAPE*/
+
+
+
+
