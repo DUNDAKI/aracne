@@ -51,8 +51,12 @@ color: #000;
 
 /*TELA PRINCIPAL*/
 .tela{
-    margin-top: 100px;
-    height: 715px;
+    padding-top: 100px;
+    height: 750px;
+    margin-top: 50px;
+}
+#oquefazemos{
+    margin-top: 50px;
 }
 
 .coluna2 p{
@@ -78,8 +82,17 @@ section .tela-principal .coluna1{
 }
 
 /*O QUE FAZEMOS */
+.fazemos{
+    padding-top: 74px;
+}
 #oquefazemos{    
     background: rgb(1, 1, 248);
+    margin: 0;
+}
+#oquefazemos2{ 
+    
+    height: 400px; 
+    background: rgb(248, 203, 1);
     margin: 0;
 }
 
