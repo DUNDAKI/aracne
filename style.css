@@ -13,7 +13,13 @@ box-sizing: border-box;
 /* elementos bases */
 body {
 width: 100%;
+<<<<<<< HEAD
 background: #ca06f1;
+=======
+background: #00ff70;
+background-size: cover;    
+background-repeat: no-repeat;
+>>>>>>> ecdd5c43312896e220b59aeeaafcf61e348a7373
 font-family: "Arial ", Times;
  
 } 
@@ -23,8 +29,11 @@ font-family: "Arial ", Times;
 .navbar{
 width: 100%;
 box-shadow:0px 2px 20px #07e93f;
+<<<<<<< HEAD
 background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%);
 background: linear-gradient(blue, pink);
+=======
+>>>>>>> ecdd5c43312896e220b59aeeaafcf61e348a7373
 
 }
 
@@ -50,6 +59,7 @@ color: #000;
 
 
 /*TELA PRINCIPAL*/
+<<<<<<< HEAD
 .tela{
     padding-top: 100px;
     height: 750px;
@@ -57,13 +67,35 @@ color: #000;
 }
 #oquefazemos{
     margin-top: 50px;
+=======
+.container .tela-principal{
+padding-top: 50px;
+
+
+}
+.container .coluna1 , .coluna2{
+padding-top: 84px;
+>>>>>>> ecdd5c43312896e220b59aeeaafcf61e348a7373
 }
 
 .coluna2 p{
 font-size: 20px;
 }
+<<<<<<< HEAD
 
 
+=======
+.container .coluna2{
+   /* background: #e50914;*/
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 0px;
+    
+}
+.coluna2 .solucao{
+    margin-top: 22px;
+}
+>>>>>>> ecdd5c43312896e220b59aeeaafcf61e348a7373
 .btn-info{
 border-radius: 20px;
 font-size: 20px;
@@ -72,6 +104,7 @@ font-size: 20px;
 .tela-principal  .btn-empresa{
     margin-bottom: 26px;
 }
+<<<<<<< HEAD
 
 section .tela-principal .coluna1{
     padding-top: 31px;
@@ -94,6 +127,19 @@ section .tela-principal .coluna1{
     height: 400px; 
     background: rgb(248, 203, 1);
     margin: 0;
+=======
+.coluna2 .btn_solucao{
+    margin-bottom: 26px;
+}
+
+/*O QUE FAZEMOS */
+#oquefazemos{    
+    background: rgb(1, 1, 248);
+    margin-top: 180px;
+    
+    
+    margin-top: -10px;
+>>>>>>> ecdd5c43312896e220b59aeeaafcf61e348a7373
 }
 
 #oquefazemos h3{
@@ -112,12 +158,15 @@ section .tela-principal .coluna1{
 #como-funciona{
     margin: 0px;
 }
+<<<<<<< HEAD
 section .container .cadastro{
     margin-bottom: 20px;
 }
 
 
 
+=======
+>>>>>>> ecdd5c43312896e220b59aeeaafcf61e348a7373
 /*PAGINA QUEM SOMOS*/
 
 .fundo{

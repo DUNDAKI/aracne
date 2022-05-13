@@ -1,6 +1,7 @@
 
 @media screen and (max-width: 575px) {
 
+<<<<<<< HEAD
 .tela{
   margin-top: 100px;
 }
@@ -74,6 +75,60 @@ margin-top: -10px;
 
 
 
+=======
+  section .container .btn_empresa:hover{
+      background-color: blueviolet;
+      
+  }
+
+  section .container .btn-solucao:hover{
+    background-color: rgb(250, 7, 47);
+    
+}
+  section .container .cadastro, .usuario{
+    margin-bottom: 20px;
+  }
+
+  .tela-principal .btn_empresa{
+    margin-bottom: 20px;
+  }
+
+  section .container .btn-solucao{
+    margin-bottom: 50px;
+    color: blueviolet;
+  }
+
+  section .user{
+    background-color: rgb(43, 255, 0);
+    padding-bottom: 20px;
+  }
+  section .cad{
+    background-color: rgb(248, 8, 8);
+    
+
+  }
+  .container .coluna2{
+    background-color: brown;    
+     padding-top: 0px;
+     
+ }
+/*O QUE FAZEMOS*/
+ section #oquefazemos{
+  background-color: rgb(97, 72, 243);
+ }
+
+
+
+/*FOOTER*/
+footer{
+  margin-top: -10px;
+}
+
+  
+
+
+  
+>>>>>>> ecdd5c43312896e220b59aeeaafcf61e348a7373
 }
 
 
